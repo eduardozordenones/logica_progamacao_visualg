@@ -1,2 +1,2 @@
 # logica_progamacao_visualg
-Exercícios sobre as estruturas sequenciais. 
+Exercícios sobre as estruturas condicionais. 
