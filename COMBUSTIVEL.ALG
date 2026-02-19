@@ -1,0 +1,55 @@
+Algoritmo "combustivel"
+
+
+
+Var
+// Seção de Declarações das variáveis 
+ codigo, alcool, gasolina, diesel: inteiro
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   alcool <- 0
+   gasolina <- 0
+   diesel <- 0
+
+
+   escreval ("Informe um codigo (1, 2, 3) ou 4 para parar: ")
+   leia (codigo)
+
+   enquanto codigo <> 4 faca
+
+      escolha codigo
+      caso 1
+        alcool <- alcool + 1
+      caso 2
+        gasolina <- gasolina + 1
+      caso 3
+        diesel <- diesel + 1
+     fimescolha
+     
+     escreval ("Informe um codigo (1, 2, 3 ou 4 pra encerrar: ")
+     leia (codigo)
+     
+   fimenquanto
+   
+   escreval ("Muito Obrigado!")
+   escreval ("Alcool: ", alcool)
+   escreval ("gasolina: ", gasolina)
+   escreval ("diesel: ", diesel)
+
+
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+Fimalgoritmo
